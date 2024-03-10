@@ -1,5 +1,5 @@
-public class Student_info{
-    String name="Vaishali";
+public class Student_info extends Course{
+    String name="Vaishali ";
     String department="BCA";
     String program="BCA";
     public String RegistertedCourse[]={" ","C#","Applied statistics","Java"};
@@ -18,6 +18,7 @@ public class Student_info{
     public static void main(String[] args){
         Student_info s = new Student_info();
         s.display();
-        
+        s.DisplayMarks();
+        s.displaylessthanfourty();
     }
 }
